@@ -25,9 +25,8 @@ html{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: #1f1e1f;
+    background-color: #f0f0f0;
     position: fixed;
-    padding-left: 30rem;
 }
 
 .logo{
@@ -40,7 +39,7 @@ html{
 
 
 .logo h3{
-    color: #fff;
+    color: #949494;
     font-size: 1.6rem;
 }
 
@@ -58,7 +57,7 @@ html{
 
 .content .list-menu li a {
     padding: 3rem 1rem 2rem 1rem;
-    color: #fff;
+    color: #858585;
     font-size: 1.8rem;
     text-transform: uppercase;
     font-weight: 500;
@@ -73,10 +72,7 @@ html{
 }
 
 
-
 /*First-Section*/
-
-
 .first-section{
     height: 100vh;
     background-image: linear-gradient(rgba(29,29,29,0.8), rgba(29, 29, 29, 0.788)), url(../image/fundopizza.jpg);
@@ -140,5 +136,201 @@ html{
 }
 
 
+/*sobrenos*/
 
+.sobre-nos{
+    background-color: #1f1e1f;
+    width: 100%;
+    padding-bottom: 5rem;
+    color: #fff;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.sobre-nos img{
+    width: 400px;
+    height: 400px;
+    margin-top: 10rem;
+    margin-left: 10rem;
+    border: 2px solid #d6d6d6;
+}
+
+.main{
+    display: flex;
+    justify-content: space-between;
+}
+
+.contentsobre{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contentsobre h2{
+    font-size: 6rem;
+    margin-top: 1rem;
+}
+
+.contentsobre p{
+    font-size: 1.8rem;
+    text-align: center;
+    width: 600px;
+}
+
+/*Fotos de Modelos*/
+
+.cardapio{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.cardapio h2{
+    font-size: 5rem;
+    color: #e6e6e6;
+    text-transform: uppercase;
+    padding-top: 3rem;
+}
+
+.itens-cardapio{
+    width: 80%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 550px));
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+
+.itens-cardapio .informacoes{
+    background-color: #ffffff;
+    border: none;
+    border-radius: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem;
+   
+}
+
+.itens-cardapio img{
+    width: 100%;
+    height: 300px;
+}
+
+.itens-cardapio .informacoes h3{
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    text-decoration: underline;
+}
+
+.itens-cardapio .informacoes h4{
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    margin-bottom: 0.6rem;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 150px 150px;
+    margin-left: 6rem;
+}
+
+.itens-cardapio .informacoes h4 span{
+    font-size: 1.6rem;
+    color: #7c7c7c;
+    margin-left: 1.5rem;
+    text-decoration: underline;
+}
+
+.itens-cardapio img{
+    width: 100%;
+    height: 350px;
+}
+
+.itens-cardapio div{
+    border-radius: 15px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 4px .5px #a6a6a686;
+    overflow: hidden;
+}
+
+.itens-cardapio .informacoes .pedir{
+    width: 200px;
+    height: 35px;
+    margin-top: 0.5rem;
+    background-color: #ffbd06;
+    text-transform: uppercase;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #000;
+    transition:  all 150ms ease-in;
+}
+
+.itens-cardapio .informacoes .pedir:hover{
+    background-color: #d3d3d3;
+    color: #fff;
+}
+
+
+/*contaots*/
+
+.contatos{
+    width: 100%;
+    background-color: #dedede;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.8rem;
+    color: #929292;
+    padding-bottom: 4rem;
+}
+
+.contatos h3{
+    padding-top: 10px;
+    font-size: 3rem;
+    margin-bottom: 3rem;
+}
+
+.contatos-secao{
+    width: 650px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 2rem;
+}
+
+.contatos-secao i {
+    margin-right: 1rem;
+
+}
+
+.contatos-secao div{
+    cursor: pointer;
+    transition:  all 150ms ease-in;
+}
+
+.contatos-secao div:hover{
+    color: #ffbd06;
+}
+
+footer{
+    height: 25px;
+    background-color: #eeeeee;
+    color: #000000;
+    font-size: 1.6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    font-weight: 100;
+}
 
